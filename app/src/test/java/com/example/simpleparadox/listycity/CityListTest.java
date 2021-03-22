@@ -99,7 +99,7 @@ class CityListTest {
         CityList cityList = mockCityList();
 
         cityList.add(new City("Paris", "France"));
-        assertTrue(cityList.hasCity(new City("Lyon", "France")));
+        assertTrue(cityList.hasCity(new City("Paris", "France")));
 
     }
 }
